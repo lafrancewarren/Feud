@@ -1,0 +1,9 @@
+/ HTML
+<p id="change-text">Click me to change the text!</p>
+
+// JavaScript
+const changeText = document.querySelector("#change-text");
+
+changeText.addEventListener("click", function() {
+  changeText.textContent = "Text has been changed!";
+});
